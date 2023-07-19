@@ -14,7 +14,17 @@ export default function Home() {
   } as AppConfig;
 
   return (
-    <div className={styles.container}>
+    <div
+      // className={styles.container}
+      style={{
+        display: "grid",
+        // gridAutoFlow: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        width: "100%",
+        height: "100%",
+      }}
+    >
       <SquidWidget config={config} />
     </div>
   );

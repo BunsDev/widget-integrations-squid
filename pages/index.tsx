@@ -37,24 +37,22 @@ export default function Home() {
         // gridAutoFlow: "row",
         alignItems: "center",
         justifyContent: "center",
+        scale: "100%",
         width: "100%",
         height: "100%",
-        border: "1px solid #000000",
-        margin: '12px'
+        border: "1px solid #821fff",
+        borderRadius: "24px",
+        // marginTop: 12,
+        // maxWidth: "100%",
+        // flexWrap: "nowrap",
+        // border: "1px solid #000000",
+        // margin: '12px'
       }}
     >
-     
-      <div
-        style={{
-          border: "4px solid #821FFF",
-          borderRadius: "10px",
-        }}
-      >
         <SquidWidget
           config={config}
         />
-      </div>
-         <a href={'https://app.soulswap.finance'}
+         {/* <a href={'https://app.soulswap.finance'}
         target={'_blank'}
         rel={'noreferrer'}
         
@@ -79,7 +77,7 @@ export default function Home() {
         >
           {'Return to SoulSwap'}
         </div>
-      </a>
+      </a> */}
 
     </div>
   );

@@ -1249,10 +1249,10 @@
     rpc-websockets "^7.5.1"
     superstruct "^0.14.2"
 
-"@soulswapfinance/cross-chain-widget@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@soulswapfinance/cross-chain-widget/-/cross-chain-widget-0.0.1.tgz#f3eaca8947fd22c61748169af21d18c32cad1679"
-  integrity sha512-J4xFlCiisbPBK5fM7zHPokJqLBXiVR0nNK/XDo0ztfJS6jiJB++85Xq/8J+qmn4JNnim3aQNYJrjY1a4IwTlxQ==
+"@soulswapfinance/cross-chain-widget@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@soulswapfinance/cross-chain-widget/-/cross-chain-widget-0.0.2.tgz#f6b1f97763fd21812fbfe9b0c0a670e57aba9599"
+  integrity sha512-C+WqBylH7GdMblMMk8ikdcYgiLdD94ro6fuijA3XJ8TrkJfKzlz/lbWND8Fv0OQSaYjGpOcbMBz5Tc1nQYcxQw==
   dependencies:
     "@0xsquid/sdk" "1.7.0"
     "@cosmjs/stargate" "^0.29.2"

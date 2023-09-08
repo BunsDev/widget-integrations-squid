@@ -44,6 +44,7 @@ export default function Home() {
     >
       <a href={'https://app.soulswap.finance'}
         target={'_blank'}
+        rel={'norefferer'}
         style={{
           color: '#821FFF',
           textDecoration: 'none',

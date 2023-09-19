@@ -4,6 +4,11 @@ const withTM = require('next-transpile-modules')(["@soulswapfinance/cross-chain-
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+
+  images: {
+    domains: ['exchange.soulswap.finance', 'raw.githubusercontent.com', 'avatars.githubusercontent.com'],
+  },
+
 }
 
 
